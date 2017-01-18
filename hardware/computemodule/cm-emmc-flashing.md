@@ -67,8 +67,8 @@ where `MM` is month, `DD` is day, and `hh` and `mm` are hours and minutes respec
 Clone the `usbboot` tool repository:
 
 ```bash
-git clone --depth=1 https://github.com/raspberrypi/tools
-cd tools/usbboot
+git clone https://github.com/raspberrypi/usbboot.git
+cd usbboot
 ```
 
 `libusb` must be installed. If you are using Cygwin, please make sure `libusb` is installed as previously described. On the Raspberry Pi or other Debian-based Linux enter the following command:
